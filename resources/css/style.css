@@ -1,0 +1,67 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Titres */
+
+h1{
+font-size: 50px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 42px;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+/* Paragraphes */
+p {
+    font-size: 1em;
+}
+
+.excursion-description{
+    font-size: 21px;
+    color: gray;
+}
+
+/* Liens */
+a {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Vidéos et images */
+video, img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Icône de téléphone */
+.phone-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    font-size: 0.8em;
+    margin-top: 20px;
+    color: gray;
+    text-align: right;
+}
